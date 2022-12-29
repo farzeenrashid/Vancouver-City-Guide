@@ -1,3 +1,110 @@
-.header {
-    background-color: rgb(77, 228, 255)
+* {
+    text-decoration: none;
+}
+body {
+    background-color:rgb(221, 221, 221);
+}
+.nav-bar {
+    background-color: #38aa93;
+    font-weight: 700;
+    font-family: "Groupe", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+h2 {
+    color: white;
+    background-color: rgb(63, 108, 231);
+    font-size: 28px;
+    font-family: "Maybe Coffee", sans-serif;
+    line-height: 10px;
+    padding: 16px;
+    border-radius: 6px;
+    display: inline;
+}
+h2:hover {
+    color: rgb(63, 108, 231);
+    background-color: white;
+    transition: 0.5s;
+}
+.canadian-flag, .bc-flag {
+    width: 80px;
+    height: 45px;
+    border: 3px solid rgb(255, 255, 255)
+}
+.nav-bar ul li {
+    padding: 10 3 10 3;
+    line-height: 60px;
+    display: inline;
+}
+.nav-bar ul li a {
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+a {
+    background-color: rgb(83, 185, 151);
+}
+a:hover {
+    transition: 0.5s;
+    background-color: rgb(211, 201, 55);
+}
+.main-container {
+    line-height: 300px;
+    margin: 109px 20px 20px 20px;
+    background-color: #8441bb;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    padding: 50px 30px 50px 30px;
+}
+.main-container .welcome-container {
+    line-height: 100px;
+    background-color: pink;
+    outline: 3px solid rgb(253, 138, 157);
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-container li {
+    line-height: 60px;
+    list-style-type: none;
+}
+.vancouver-pic {
+    width: 670px;
+    height: auto;
+    margin: 18px;
+}
+.welcome {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: left;
+}
+.subtitle {
+    font-size: 40px;
+    text-align: left;
+}
+.description {
+    font-size: 18px;
+    text-align: left;
+}
+.description li {
+    line-height: 28px;
+}
+.button {
+    font-size: 15px;
+    text-align: left;
+}
+button {
+    background-color: rgb(216, 140, 40);
+    color: white;
+    border-color: rgb(235, 174, 84);
+    border-style: solid;
+    box-shadow: 4px 4px 4px rgb(126, 93, 98);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
 }
