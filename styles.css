@@ -109,8 +109,8 @@ button {
     border-style: solid;
     border-radius: 15px;
     font-size: 25px;
-    font-family: "Omnes", sans-serif;
     font-weight: bold;
+    font-family: "Omnes", sans-serif;
     padding: 10px;
     cursor: pointer;
     box-shadow: 0 9px rgb(126, 93, 98);
@@ -134,7 +134,7 @@ button:active {
 }
 .white-container-1 {
     background-color: white;
-    border: 2px;
+    border-width: 2px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     transform: rotate(-1.5deg);
@@ -144,7 +144,7 @@ button:active {
     height: 400px;
     width: auto;
     margin: 20px;
-    border: 2px;
+    border-width: 2px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
 }
@@ -170,7 +170,7 @@ button:active {
     font-size: 30px;
 }
 .top-illustration {
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
 }
 .illustration-container-2 {
@@ -182,7 +182,7 @@ button:active {
 }
 .white-container-2 {
     background-color: white;
-    border: 2px;
+    border-width: 2px;
     border-style: solid;
     border-color: rgb(0, 0, 0);
     transform: rotate(1.5deg);
@@ -219,6 +219,136 @@ button:active {
     font-size: 30px;
 }
 .bottom-illustration {
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
+    margin-bottom: 20px;
+}
+.places-text-box {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 159, 69);
+    border-color: rgb(216, 141, 29);
+    border-style: solid;
+    border-width: 2px;
+    line-height: 70px;
+    margin: 40px 350px 15px 350px;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Omnes", sans-serif;
+    color: white;
+}
+.canucks {
+    width: 350px;
+    height: 500px;
+}
+.places-container-1, .places-container-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+.white-container-3, .white-container-4, .white-container-5, .white-container-6 {
+    background-color: white;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 10px;
+    text-align: center;
+}
+.description-1, .description-2, .description-3, .description-4 {
+    position: relative;
+    font-size: 25px;
+    font-family: "Danhand", sans-serif;
+    text-align: center;
+}
+.stanley-park, .grouse-mountain {
+    width: 550px;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+.science-world, .suspension-bridge {
+    width: 700px;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+.discover-container {
+    display: block;
+    margin: 10px 20px 10px 16px;
+    background-color: rgb(255, 120, 120);
+    box-shadow: 10px 10px rgb(0, 0, 0);
+    border-color: rgb(214, 100, 100);
+    border-style: solid;
+    border-width: 2px;
+}
+.discover-title-container {
+    background-color: #a086ff;
+    margin: 15px 480px 25px 480px;
+    border-color: rgb(138, 93, 221);
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 10px 10px rgb(108, 57, 175);
+}
+.discover-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Omnes", sans-serif;
+    color: rgb(255, 255, 255);
+}
+.discover-main {
+    display: flex;
+    justify-content: space-evenly;
+}
+.discover-main p {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Danhand", sans-serif;
+}
+.authors-text, .bands-text, .art-text, .food-text {
+    background-color: white;
+}
+.bands-text {
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.art-text {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.food-text {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.authors, .bands, .art, .food {
+    width: auto;
+    height: 315px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+}
+.discover-descriptions {
+    display: flex;
+    justify-content: space-evenly;
+}
+.authors-description-container, .bands-description-container, .art-description-container, .food-description-container {
+    background-color: rgb(248, 168, 168);
+    text-align: center;
+    font-family: "Danhand", sans-serif;
+}
+.authors-description-container {
+    margin: 0px 10px 10px 8px;
+}
+.bands-description-container {
+    margin: 0px 0px 10px 0px;
+}
+.art-description-container {
+    margin: 0px 10px 10px 10px;
+}
+.food-description-container {
+    margin: 0px 8px 10px 0px;
 }
