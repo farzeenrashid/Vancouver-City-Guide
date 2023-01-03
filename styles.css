@@ -19,7 +19,7 @@ body {
 h2 {
     color: white;
     background-color: rgb(63, 108, 231);
-    font-size: 28px;
+    font-size: 25px;
     font-family: "Groupe", sans-serif;
     line-height: 10px;
     padding: 16px;
@@ -44,16 +44,16 @@ h2:hover {
 }
 .nav-bar ul li a {
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px;
     margin: 15px;
     border-radius: 6px;
     text-transform: uppercase;
 }
-a {
+.nav-bar a {
     background-color: rgb(83, 185, 151);
 }
-a:hover {
+.nav-bar a:hover {
     transition: 0.5s;
     background-color: rgb(211, 201, 55);
 }
@@ -169,7 +169,7 @@ button:active {
     font-family: "Danhand", sans-serif;
     font-size: 30px;
 }
-.top-illustration {
+#top-illustration {
     justify-content: space-evenly;
     display: flex;
 }
@@ -200,6 +200,7 @@ button:active {
     width: 400px;
     height: 400px;
     margin: 70px 0px 0px 125px;
+    position: relative;
 }
 .text-block-2 {
     position: absolute;
@@ -326,7 +327,7 @@ button:active {
 }
 .authors, .bands, .art, .food {
     width: auto;
-    height: 315px;
+    height: 310px;
     border-color: rgb(255, 255, 255);
     border-style: solid;
     border-width: 2px;
@@ -336,12 +337,12 @@ button:active {
     justify-content: space-evenly;
 }
 .authors-description-container, .bands-description-container, .art-description-container, .food-description-container {
-    background-color: rgb(248, 168, 168);
+    background-color: rgb(253, 180, 180);
     text-align: center;
     font-family: "Danhand", sans-serif;
 }
 .authors-description-container {
-    margin: 0px 10px 10px 8px;
+    margin: 0px 10px 10px 12px;
 }
 .bands-description-container {
     margin: 0px 0px 10px 0px;
@@ -350,5 +351,20 @@ button:active {
     margin: 0px 10px 10px 10px;
 }
 .food-description-container {
-    margin: 0px 8px 10px 0px;
+    margin: 0px 12px 10px 0px;
+}
+.quote-container {
+    background-color: rgb(200, 200, 200);
+    margin: 50px 50px 40px 50px;
+}
+.quote {
+    font-family: "Danhand", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.copyright-container {
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Omnes", sans-serif;
+    font-size: 20px;
 }
