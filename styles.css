@@ -123,7 +123,6 @@ button:active {
     box-shadow: 0 5px rgb(133, 97, 0);
     transform: translateY(4px);
 }
-
 /* Illustrations */
 .illustration-container-1 {
     line-height: 65px;
@@ -140,7 +139,7 @@ button:active {
     transform: rotate(-1.5deg);
     z-index: 1;
 }
-.illustration-1 {
+.white-container-1 img {
     height: 400px;
     width: auto;
     margin: 20px;
