@@ -230,7 +230,7 @@ button:active {
 .places-text-box {
     display: flex;
     justify-content: center;
-    background-color: rgb(255, 159, 69);
+    background-color: rgb(255, 169, 88);
     border-color: rgb(216, 141, 29);
     border-style: solid;
     border-width: 2px;
